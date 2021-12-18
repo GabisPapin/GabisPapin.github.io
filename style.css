@@ -21,5 +21,33 @@ body{
     text-align: center;
     font-family: verdana;
     font-style: italic;
+    font-size: 25px;
     color:purple;
+}
+
+p{
+    font-size: 18px;
+}
+
+#positionPic{
+    height: 400px;
+    overflow-y: auto;
+}
+
+.pictures{
+    width: 400px;
+    height: 400px;
+}
+
+.composition{
+    text-align: center;
+}
+
+#habilidades{
+    font-family:verdana;
+    margin-left: 50px;
+}
+
+h3{
+    font-size: 25px;
 }
