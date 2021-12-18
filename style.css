@@ -1,0 +1,25 @@
+body{
+    background-color: pink;
+}
+
+#header{
+    background-color: plum;
+    margin-top: -20px;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+#title {
+    text-align: center;
+    font-family:Verdana;
+    font-style: italic;
+    color: rgb(56, 139, 56);
+    padding-top: 20px;
+}
+
+#subtitle{
+    text-align: center;
+    font-family: verdana;
+    font-style: italic;
+    color:purple;
+}
