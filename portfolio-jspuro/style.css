@@ -1,0 +1,87 @@
+body{
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: plum;
+    width: 100%;
+}
+
+#header h1 {
+    font-style: italic;
+    color: rgb(56, 139, 56);
+    padding-top: 20px;
+}
+
+#subtitle{
+    font-style: italic;
+    font-size: 25px;
+    color:purple;
+}
+
+.menu {
+    list-style: none;
+    border:1px solid pink;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+    border-right: 1px solid pink;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+.menu li a:hover {
+    background-color: pink;
+    color: purple;
+    box-shadow: 0 3px 10px 0 purple;
+    box-shadow: 0 3px 10px 0 purple;
+    text-shadow: 0 0 5px palevioletred;
+}
+
+p{
+    font-size: 18px;
+}
+
+#positionPic{
+    height: 400px;
+    overflow-y: auto;
+}
+
+.pictures{
+    width: 400px;
+    height: 400px;
+}
+
+.composition{
+    text-align: center;
+}
+
+#habilidades{
+    font-family:verdana;
+    margin-left: 50px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+button{
+background-color: rgb(84, 179, 84);
+}
