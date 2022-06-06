@@ -1,8 +1,8 @@
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
-  background-color: aquamarine;
+  background-color: rgb(167, 218, 238);
   width: 100%;
 }
 
@@ -15,8 +15,9 @@
   list-style: none;
   border: 1px solid gray;
   float: left;
+  margin-top: 2%;
   margin-left: 10px;
-  margin-bottom: 0%;
+  margin-bottom: 2%;
 }
 
 .menu li {
@@ -36,5 +37,6 @@
   background: snow;
   color: black;
   box-shadow: 0 3px 10px 0; 
+  border-radius: 60%;
 }
 

@@ -2,5 +2,46 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: antiquewhite;
+  background: url('http://www.osmais.com/wallpapers/201206/mar-debaixo-wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-foto-perfil {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-right: 5%;
+}
+
+.container-text {
+  width: 70%;
+  border-radius: 2%;
+  margin-top: 4%;
+  animation-name: foto;
+  animation-duration: 6s;
+}
+
+h3 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-style: italic;
+}
+
+@keyframes foto {
+  0% {opacity: 0;}
+  50% {opacity: 0.5;}
+  100% {opacity: 0.8;}
+}
+
+.imagem-perfil {
+  width: 200px;
+  border-radius: 60%;
+  border: 2px solid aquamarine;
+  margin-right: 2%;
 }

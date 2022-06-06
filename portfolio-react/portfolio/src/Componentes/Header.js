@@ -6,13 +6,11 @@ class Header extends React.Component {
     return (
       <div className="header">
         <header>
-          <h1>Portfólio</h1>
-          <h2>Gabriela Papin Silva</h2>
         <nav className="container-menu">
           <ul className="menu">
+            <li><a href="#sobre">Sobre</a></li>
             <li><a href="#habilidades">Habilidades</a></li>
             <li><a href="#hobbies">Hobbies</a></li>
-            <li><a href="#redes-sociais">Redes Sociais</a></li>
           </ul>
         </nav>
         </header>
